@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Noor-Us-Sabah Web Portfolio Programming Skills page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Noor-Us-Sabah's web portfolio Programming Skills page assignment">
+    <link href="styles/theatrestyle.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form id="TicketsForm">
+        <fieldset>
+            <legend>Theatre Tickets</legend>
+            <!--name-->
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </p>
+            <!--adress-->
+            <p>
+                <label for="adress">Address:</label>
+                <input type="text" id="adress" name="adress" required>
+            </p>
+            <!--shows-->
+            <legend>Currently available shows:</legend>
+            <p>
+                <input type="radio" id="Phantom of the Opera" name="shows" value="79" >
+                <label for="shows">Phantom of the Opera</label>
+            </p>
+            <p>
+                <input type="radio" id="Hamilton" name="shows" value="85">
+                <label for="shows">Hamilton</label>
+            </p>
+            <p>
+                <input type="radio" id="Lion King" name="shows" value="67">
+                <label for="shows">Lion King</label>
+            </p>
+            <p>
+                <input type="radio" id="Miss Saigon" name="shows" value="83">
+                <label for="shows">Miss Saigon</label>
+            </p>
+            <p>
+                <label for="seats">Number of seats required:</label>
+                <input type="number" id="seats" name="seats" min="1" required>
+            </p>
+            <!--delivery-->
+            <legend>Method of delivery:</legend>
+            <p>
+                <input type="radio" id="E-ticket:" name="delivery" value="0" >
+                <label for="delivery">E-ticket</label>
+            </p>
+            <p>
+                <input type="radio" id="Collect from Box Office:" name="delivery" value="1.50">
+                <label for="delivery">Box Office</label>
+            </p>
+            <p>
+                <input type="radio" id="Posted:" name="delivery" value="3.99">
+                <label for="delivery">Posted</label>
+            </p>
+            <p id="result"></p> 
+        </fieldset>
+        <!--buttons-->
+        <input type="button" onClick="location.href='Programmingskills.html'" value='Return'>
+        <button type="submit" name="bookings" id="bookings">Cost and Booking</button>
+
+        <p id="output"></p>
+    </form>
+
+    <script src="scripts/maintickets.js"></script>
+
+</body>
+
+</html>

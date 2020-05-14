@@ -1,0 +1,10 @@
+
+fieldset {
+    width:375px;
+}
+
+#output {
+  min-height: 50px;
+  border: 1px solid black; 
+  width:400px; 
+}

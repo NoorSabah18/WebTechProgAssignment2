@@ -1,0 +1,49 @@
+body {
+  background: seagreen;
+}
+ #message{
+    min-height: 50px;
+    border: 1px solid black; 
+    width:328px; 
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  fieldset {
+    width:350px;
+    width:400px;
+  background:rgb(120, 209, 158);
+  margin: 0 auto;
+  margin-top:30px;
+  text-align: center;
+  padding: 20px;
+  font-size:20px;
+}
+  img {
+    padding: 5px;
+  }
+label {
+  padding: 10px;
+  margin: 0 auto;
+}
+#credits, #winnings{
+  min-height: 50px;
+  border: 1px solid black; 
+  width:75px; 
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  margin: 0 auto;
+  font-size:40px;
+}
+#spin, #credit, #collect{
+  min-height: 50px;
+  border: 1px solid black; 
+  width:75px; 
+  padding: 10px;
+  margin: 0 auto;
+}
+#scores{
+  display: flex;
+}
